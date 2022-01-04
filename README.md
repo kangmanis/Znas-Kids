@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>DonationForm</title>
+<img 	class= "logo" style="width:10%" src= "logo.png">
+
+
+<head>
+	<style>
 body{
 	background-image: url('bg.png');
  	background-repeat: no-repeat;
@@ -178,3 +188,67 @@ p {
   padding-bottom: 5px;
   padding-top: 20px;
 }
+	</style>
+	</head>
+	<body>
+		<ul class="horizontal">
+			<li><button id="index" class= "block" onclick="window.location.href='Index.html'">Home</button></li>
+			<li class="dropdown">
+				<button class="dropbtn active">Articles
+    				</button>
+				<div class="dropdown-content">
+      					<a href="news.html">News</a>
+      					<a href="health.html">Health</a>
+      					<a href="activities.html">Activities</a>
+    				</div>
+			</li>
+			<li><button id="class" class= "block active" onclick="window.location.href='Class.html'">Class</button></li>
+			<li><button id="donation" class= "block" onclick="window.location.href='Donation.html'">Donation</button></li>
+			<li style="float:right"><button id="aboutUs" class= "block" onclick="window.location.href='Aboutus.html'">About Us</button></li>
+		</ul>
+
+		<div class="main1">
+		<div class="main">
+			<a href="ScienceO1.html">
+			<img src="Science.png" class="row2" width="300" height="212" style="float:left"/>
+			<div class="row"><br>
+			<h2 class="row3">Science Class for Preschoolers</h2><hr></a>
+			<p>A fun approach of learning Science.
+				Children engage in hands-on activities, watch spectacular demonstrations.</p>
+			</div></div>
+
+			<div class="main">
+				<a href="MusicO1.html">
+				<img src="Music.jpg" class="row2" width="300" height="212" style="float:left"/>
+				<div class="row"><br>
+				<h2 class="row3">Music Class for Middle Childhood</h2><hr></a>
+				<p>Our music classes for kids provide a fun,
+					comfortable environment for children. Support your child learn new skills
+					in an enchanting musical environment.</p>
+				</div></div>
+
+				<div class="main">
+					<a href="SportO1.html">
+					<img src="Sport.jpg" class="row2" width="300" height="212" style="float:left"/>
+					<div class="row"><br>
+					<h2 class="row3">Sport Class for Middle Childhood</h2><hr></a>
+					<p>Make our child healthy and strong. Our professional athletes will teach your child all
+						kind of sports. Starts from badminton, football, karate,
+						swimming, and so on</p>
+					</div></div>
+
+					<div class="main">
+						<a href="ArtO1.html">
+						<img src="Art.jpg" class="row2" width="300" height="212" style="float:left"/>
+						<div class="row"><br>
+						<h2 class="row3">Art Class for Preschoolers</h2><hr></a>
+						<p>Increase your child's creativity by honing their talents in the art classes we provide.
+							Equipped with adequate facilities and a comfortable environment</p>
+						</div></div><br>
+						<footer></br>
+							<i><p class="p2" text-align: right; >Copyright &copy 2021 ZNAS KID  OFFICIAL</p></i>
+						</br></footer>
+					</div>
+	</body>
+
+</html>
